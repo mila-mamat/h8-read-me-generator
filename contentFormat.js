@@ -25,9 +25,9 @@ function contentFormat(content) {
   if (!content.projectInstallation)
     content.projectInstallation =
       " What are the steps required to install your project? Provide a step-by-step description of how"
-      + " to get the development environment running.\n Example: \n  "
-      +"### Prerequisites\n  1.node.js  \n 2. ... \n"
-      +"### Installing step by step \n  1. Clone the repo \n  2. Install NPM packages\n ```sh  npm install```  \n 3. ....";
+      + " to get the development environment running.\n Example: \n"
+      +"### Prerequisites\n  1. node.js  \n 2. ... \n"
+      +"### Installing step by step\n  1. Clone the repo \n  2. Install NPM packages\n ```sh \n npm install \n```  \n 3. ....";
 
   //if usage isn't provided, display default example 
   if (!content.projectLicense) content.projectLicense = "For your repository to be open source, you'll need to "

@@ -20,9 +20,10 @@ By ${content.userName}
 * [Project Description](#project-description)
 * [Usage](#usage)
 * [Installation](#installation)
+* [Badges](#badges)
 * [Contributing](#contributing)
 * [License](#license)
-* [Badges](#badges)
+
 
 ## Project Description
 ${content.projectDescription}
