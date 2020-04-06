@@ -28,7 +28,7 @@ async function readmeGenerator() {
    
     contentFormat(readmeContent);
     let file = generateFile(readmeContent);
-    writeToFile(readmeContent.projectTitle, file);
+    writeToFile(file);
   }
   
 readmeGenerator();
@@ -80,8 +80,8 @@ function collectInfo() {
 
 
 
-function writeToFile(fileName, fileContent) {
-  fs.writeFile("README "+fileName+".md", fileContent, function (err) {
+function writeToFile(fileContent) {
+  fs.writeFile("README.md", fileContent, function (err) {
     if (err) {
       return console.log(err);
     }

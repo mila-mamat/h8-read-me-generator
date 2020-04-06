@@ -5,7 +5,7 @@
 
 <img src="https://avatars2.githubusercontent.com/u/59339564?v=4"  alt="profile picture" width="150" height="150">
 
-<h2 align="center">Project Title</h2>
+<h2 align="center">Readme Generator</h2>
 
 <p align="center">
 By Mila Mamat
