@@ -81,7 +81,7 @@ function collectInfo() {
 
 
 function writeToFile(fileName, fileContent) {
-  fs.writeFile("Readme "+fileName+".md", fileContent, function (err) {
+  fs.writeFile("README "+fileName+".md", fileContent, function (err) {
     if (err) {
       return console.log(err);
     }
