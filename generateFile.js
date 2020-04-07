@@ -32,7 +32,7 @@ ${content.projectUsage}
 ## Installation
 ${content.projectInstallation}
 ## Badges
-Check out the badges hosted by shields.io. 
+Check out the badges hosted by https://shields.io/. 
 
 ## Contributing
 ${content.projectContributing}
