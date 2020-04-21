@@ -1,4 +1,8 @@
 
+function formatTitle(title){
+ return title.split(" ").map(word => word.charAt(0).toUpperCase()+ word.slice(1)).join(" ");
+}
+
 function generateFile(content) {
   return `
 
@@ -7,7 +11,7 @@ function generateFile(content) {
 
 <img src="${content.userAvatar}"  alt="profile picture" width="150" height="150">
 
-<h2 align="center">${content.projectTitle}</h2>
+<h2 align="center">${formatTitle(content.projectTitle)}</h2>
 
 <p align="center">
 By ${content.userName}
