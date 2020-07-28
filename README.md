@@ -8,7 +8,7 @@
 <h2 align="center">Readme Generator</h2>
 
 <h3 align="center">
- Node, Github API, inquirer
+ Node, Github API, inquirer, Axios
 
 </h3>
 
