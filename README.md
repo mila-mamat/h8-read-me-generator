@@ -7,9 +7,11 @@
 
 <h2 align="center">Readme Generator</h2>
 
-<p align="center">
-By Mila Mamat
-</p>
+<h3 align="center">
+ Node, Github API, inquirer
+
+</h3>
+
 <br />
 </p>
 
